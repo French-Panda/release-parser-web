@@ -1,0 +1,7 @@
+services:
+  release-parser:
+    build: .
+    container_name: release-parser
+    ports:
+      - "8765:8765"
+    restart: unless-stopped

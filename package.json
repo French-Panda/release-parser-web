@@ -1,0 +1,14 @@
+{
+  "name": "release-parser-web",
+  "version": "1.0.0",
+  "description": "Web server to parse warez release names using scene-release-parser",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "release-parser": "^1.5.0"
+  }
+}
